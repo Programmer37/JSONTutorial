@@ -4,7 +4,7 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Alle Werte unter 0 und alle Datentypen.",
+                "answer": "This is from Git.",
                 "correct": false,
                 "feedback": "Es ist nicht moeglich minimum fuer alle Datentypen zu verwenden, da es wenig Sinn macht ein Minimum fuer einen String zu definieren. Dafuer gibt es bei Strings die Keywoerter minLength/maxLength."
             },
