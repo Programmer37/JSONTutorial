@@ -1,6 +1,6 @@
 [
     {
-        "question": "Welche Werte und Datentypen sind zulaessig wenn fuer eine Eigenschaft gilt 'minimum': 0?",
+        "question": "Welche Werte und Datentypen sind zulaessig wenn fuer eine Node gilt 'minimum': 0?",
         "type": "multiple_choice",
         "answers": [
             {
