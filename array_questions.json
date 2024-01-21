@@ -1,27 +1,27 @@
 [
     {
-        "question": "Welche Werte und Datentypen sind zulaessig wenn fuer eine Eigenschaft gilt 'minimum': 0?",
+        "question": "Ist die Reihnfolge in der die Elemente in einem Array gespeichert werden relevant?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Alle Werte unter 0 und alle Datentypen.",
-                "correct": false,
-                "feedback": "Es ist nicht moeglich minimum fuer alle Datentypen zu verwenden, da es wenig Sinn macht ein Minimum fuer einen String zu definieren. Dafuer gibt es bei Strings die Keywoerter minLength/maxLength."
+                "answer": "Nicht wenn es nur Elemente vom selben Datentypen sind die gespeichert werden.",
+                "correct": true,
+                "feedback": "Korrekt"
             },
             {
-                "answer": "Alle Werte ueber 0 und numerische Datentypen",
+                "answer": "Ja, es ist immer relevant in welcher Reihnfolge die Elemente im Array stehen.",
                 "correct": false,
-                "feedback": "Minimum definiert den niedrigsten zulaessigen Wert, nicht den hoechsten. Dafuer verwendet man das Keywort maximum."
+                "feedback": "Nein, nur unter bestimmten Umständen ist die Reihnfolge relevant."
             },
             {
-                "answer": "Alle Werte unter 0 und numerische Datentypen.",
+                "answer": "Die Reihnfolge ist nur wichtig wenn das Keyword 'sorted' auf True gesetezt wird.",
+                "correct": false,
+                "feedback": "Nein, da das Keyword nicht so in JSON existiert."
+            },
+            {
+                "answer": "Wenn die Elemente unterschiedliche Datentypen haben, ist es relevant in welcher Reihnfolge sie gespeichert werden.",
                 "correct": true,
                 "feedback": "Korrekt."
-            },
-            {
-                "answer": "Alle Werte unter 1 und alle Datentypen, da minimum auch den genannten Wert mit ausschliesst",
-                "correct": false,
-                "feedback": "Um auch den genannten Wert mit auszuschliessen wird das Keyword exclusiveMinimum/exclusiveMaximum verwendet."
             }
         ]
     }
