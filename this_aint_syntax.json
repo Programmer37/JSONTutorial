@@ -1,27 +1,27 @@
 [
     {
-        "question": "Are These Syntax questions?",
+        "question": "Habe ich das Gefühl mein Sein aufzugeben und mich langsam an die Gesellschaft anzupassen nur um nicht aufzufallen?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Yeah, totally.",
+                "answer": "Ne, den ich bin nur froh im Großraumbüro!",
                 "correct": false,
-                "feedback": "Es ist nicht moeglich minimum fuer alle Datentypen zu verwenden, da es wenig Sinn macht ein Minimum fuer einen String zu definieren. Dafuer gibt es bei Strings die Keywoerter minLength/maxLength."
+                "feedback": "Dies ist ein anschlag des asozialen Netzwerks."
             },
             {
-                "answer": "How da fuck can u think that",
+                "answer": "Quatsch, wir haben uns doch alle lieb im Betrieb!.",
                 "correct": false,
-                "feedback": "Minimum definiert den niedrigsten zulaessigen Wert, nicht den hoechsten. Dafuer verwendet man das Keywort maximum."
+                "feedback": "Dies ist ein anschlag des asozialen Netzwerks."
             },
             {
-                "answer": "Nö.",
+                "answer": "Ja, aber it is what it is.",
                 "correct": true,
                 "feedback": "Korrekt."
             },
             {
-                "answer": "Jeeeeeet",
+                "answer": "Frage nicht, was dein Arbeitsplatz für dich tun kann. Frage, was du für deinen Arbeitsplatz tun kannst.",
                 "correct": false,
-                "feedback": "Um auch den genannten Wert mit auszuschliessen wird das Keyword exclusiveMinimum/exclusiveMaximum verwendet."
+                "feedback": "Dies ist ein anschlag des asozialen Netzwerks."
             }
         ]
     }
