@@ -1,27 +1,27 @@
 [
     {
-        "question": "Welche Werte und Datentypen sind zulaessig wenn fuer eine Eigenschaft gilt 'minimum': 0?",
+        "question": "Wie verhindert JSON LD das Problem der Ambiguität?",
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Alle Werte unter 0 und alle Datentypen.",
+                "answer": "Dadurch das es den Identifikator '@id' einführt, der die Datei eindeutig identifiziert.",
                 "correct": false,
-                "feedback": "Es ist nicht moeglich minimum fuer alle Datentypen zu verwenden, da es wenig Sinn macht ein Minimum fuer einen String zu definieren. Dafuer gibt es bei Strings die Keywoerter minLength/maxLength."
+                "feedback": "Leider reicht der Identifikator '@id' nicht alleine aus."
             },
             {
-                "answer": "Alle Werte ueber 0 und numerische Datentypen",
+                "answer": "Durch den Identifikator '@context' der eine Verlinkung zu dem eindeutigen Identifikator aufweist.",
                 "correct": false,
-                "feedback": "Minimum definiert den niedrigsten zulaessigen Wert, nicht den hoechsten. Dafuer verwendet man das Keywort maximum."
+                "feedback": "Leider reicht der Identifikator '@context' nicht alleine aus."
             },
             {
-                "answer": "Alle Werte unter 0 und numerische Datentypen.",
+                "answer": "Sowohl '@id' als auch '@context' tragen dazu bei das die Ambiguität verhindert wird.",
                 "correct": true,
                 "feedback": "Korrekt."
             },
             {
-                "answer": "Alle Werte unter 1 und alle Datentypen, da minimum auch den genannten Wert mit ausschliesst",
+                "answer": "Durch Überlagerung von Identifikatoren ist die Eindeutigkeit sichergestellt.",
                 "correct": false,
-                "feedback": "Um auch den genannten Wert mit auszuschliessen wird das Keyword exclusiveMinimum/exclusiveMaximum verwendet."
+                "feedback": "Nein, das man Identifikatoren überlagern kann, stellt nicht sicher das Ambiguität nicht auftritt. Dies ist nur eine Funktion von JSON LD."
             }
         ]
     }
