@@ -27,7 +27,7 @@
                 "answer": "Ein Objekt besteht aus Key-Value Paaren, wobei diese vom Typ her nicht weitere Objekte sein dürfen.",
                 "correct": false,
                 "feedback": "Ein Objekt kann auch weitere Objekte speichern."
-            },,
+            },
             {
                 "answer": "Ein Objekt besteht aus Key-Value Paaren",
                 "correct": true,
