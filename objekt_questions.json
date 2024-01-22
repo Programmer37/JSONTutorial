@@ -4,7 +4,7 @@
         "type": "multiple_choice",
         "answers": [
             {
-                "answer": "Die Nodes die in einem Objekt sind folgen auf das 'properties'-Keyword und müssen zwischen ',' getrennt.",
+                "answer": "Die Nodes die in einem Objekt sind folgen auf das 'properties'-Keyword und muessen zwischen ',' getrennt.",
                 "correct": true,
                 "feedback": "Korrekt."
             },
