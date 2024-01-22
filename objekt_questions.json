@@ -22,6 +22,16 @@
                 "answer": "Die Reihnfolge der Key-Value Paare ist nur in manchen Situation von Bedeutung.",
                 "correct": false,
                 "feedback": "Bei Objekten ist die Reihnfolge der Key-Value Paare immer irrelevant."
+            },
+            {
+                "answer": "Ein Objekt besteht aus Key-Value Paaren, wobei diese vom Typ her nicht weitere Objekte sein dürfen.",
+                "correct": false,
+                "feedback": "Ein Objekt kann auch weitere Objekte speichern."
+            },
+            {
+                "answer": "Ein Objekt besteht aus Key-Value Paaren",
+                "correct": true,
+                "feedback": "Korrekt."
             }
         ]
     }
